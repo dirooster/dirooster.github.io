@@ -1,7 +1,7 @@
 # Next Tasks
 
-1. Create GitHub repository `dirooster.github.io`.
-2. If owner approves `git_commit: true`, commit and push the prepared `/docs` GitHub Pages site.
+1. Enable GitHub Pages in `dirooster/dirooster.github.io`: branch `main`, folder `/docs`.
+2. Recheck `https://dirooster.github.io/` after GitHub finishes deployment.
 3. Validate first 10 AI Production Rescue leads with deeper source notes and buyer names.
 4. Replace role-only contact placeholders with verified business contacts and verified recipient emails.
 5. Add real booking link if available; until then use `tech.it.rooster@yandex.ru`.

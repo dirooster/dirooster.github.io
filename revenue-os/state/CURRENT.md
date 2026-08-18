@@ -40,7 +40,7 @@ Revenue: 0
 
 ## Biggest Bottleneck
 
-SMTP verification is successful for `tech.it.rooster@yandex.ru`. `send_email: true` is active, but outreach queue rows remain `draft` because recipient emails are not verified. GitHub Pages `/docs` folder is prepared locally for GitHub user `dirooster`.
+SMTP verification is successful for `tech.it.rooster@yandex.ru`. `send_email: true` is active, but outreach queue rows remain `draft` because recipient emails are not verified. GitHub repository `dirooster/dirooster.github.io` has been pushed; GitHub Pages source still needs to be enabled in repository settings.
 
 ## Highest-Confidence Learning
 
@@ -52,4 +52,4 @@ SMTP authentication succeeds as of 2026-08-18. Sber/SberTech outreach exclusion 
 
 ## Current Priority
 
-Push the `/docs` GitHub Pages site once repository details are available, then verify recipient emails for the first outreach batch.
+Enable GitHub Pages from `/docs`, then verify recipient emails for the first outreach batch.
