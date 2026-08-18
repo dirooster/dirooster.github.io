@@ -351,6 +351,15 @@ h1 {
   background: rgba(255, 255, 255, 0.06);
 }
 
+.contact-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  flex-wrap: wrap;
+  max-width: 420px;
+}
+
 .alt .strip {
   color: var(--ink);
   background:
@@ -558,6 +567,10 @@ h1 {
 
   .strip {
     grid-template-columns: 1fr;
+  }
+
+  .contact-actions {
+    justify-content: flex-start;
   }
 }
 

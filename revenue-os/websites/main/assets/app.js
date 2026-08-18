@@ -21,6 +21,19 @@ document.addEventListener("click", (event) => {
   });
 });
 
+document.addEventListener("click", async (event) => {
+  const target = event.target.closest("[data-copy-email]");
+  if (!target) return;
+  const email = target.dataset.copyEmail;
+  const status = document.querySelector("[data-copy-status]");
+  try {
+    await navigator.clipboard.writeText(email);
+    if (status) status.textContent = "Email copied.";
+  } catch {
+    if (status) status.textContent = email;
+  }
+});
+
 document.addEventListener("submit", (event) => {
   const form = event.target.closest("form[data-lead-form]");
   if (!form) return;
@@ -65,4 +78,3 @@ window.runLogisticsDemo = function runLogisticsDemo() {
   };
   setText("logistics-demo-output", JSON.stringify(extraction, null, 2));
 };
-
