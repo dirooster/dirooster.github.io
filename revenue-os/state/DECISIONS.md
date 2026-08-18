@@ -19,3 +19,4 @@
 - Owner approved outreach style B: shorter and more direct.
 - Owner enabled `send_email: true`; actual sending still requires verified recipient email and queue `status=ready`.
 - Owner selected GitHub Pages as the first landing deployment target.
+- Owner rejected the first simple design. Redesign direction: premium personal-brand landing inspired by the Adam Holland Educates Framer reference, without copying its assets or brand.
