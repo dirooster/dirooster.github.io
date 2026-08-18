@@ -1,0 +1,62 @@
+owner:
+  type: senior_software_architect
+  public_name_international: Dmitrii Petukhov
+  public_name_russian: Дмитрий Петухов
+  public_email: tech.it.rooster@yandex.ru
+  public_positioning:
+    - Senior Software Architect
+    - AI Systems Architect
+  strengths:
+    - backend
+    - distributed_systems
+    - java
+    - go
+    - python
+    - llm
+    - ai_agents
+    - psychology
+    - technical_leadership
+  verified_proof_points:
+    - 7 years of Java/backend engineering experience
+    - high-load file integration systems
+    - banking and fintech integrations
+    - reactive asynchronous REST architecture
+    - S3-compatible storage integrations
+    - encryption/decryption and mTLS in cloud environments
+    - gRPC, Kafka, PostgreSQL, Docker, OpenShift
+    - architecture and team-lead responsibilities
+
+goals:
+  primary: revenue
+  secondary: scalable_business
+
+geography:
+  default:
+    - European Union
+  expansion:
+    - United Kingdom
+    - United States
+
+communication:
+  external_default: English
+  owner_reports: Russian
+
+capacity:
+  concurrent_paid_projects: 2
+
+pricing:
+  initial_market_low:
+    ai_production_audit_eur: 1500
+    logistics_workflow_analysis_eur: 500
+    cra_engineering_gap_assessment_eur: 1000
+
+tracks:
+  ai_production_rescue:
+    enabled: true
+    allocation: 40
+  logistics:
+    enabled: true
+    allocation: 35
+  cra:
+    enabled: true
+    allocation: 25

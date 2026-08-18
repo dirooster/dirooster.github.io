@@ -1,0 +1,28 @@
+contact_id,company_id,name,role,professional_email,linkedin_url,source,verified,notes,created_at
+CT-A001,A001,,CTO / VP Engineering,,,"company website and public professional search needed",false,Identify current technical buyer before sending.,2026-08-16
+CT-A002,A002,,CTO / VP Engineering,,,"company website and public professional search needed",false,Identify current technical buyer before sending.,2026-08-16
+CT-A003,A003,Vishwanath T R,Co-founder and CTO,,,"https://www.glean.com/about",true,Official Glean leadership page identifies Vishwanath T R as Co-founder and CTO; professional email still not verified.,2026-08-18
+CT-A004,A004,,CTO / Head of AI,,,"company website and public professional search needed",false,Identify current technical buyer before sending.,2026-08-16
+CT-A005,A005,,CTO / Product Engineering Lead,,,"company website and public professional search needed",false,Identify current technical buyer before sending.,2026-08-16
+CT-A006,A006,,CTO / Engineering Lead,,,"company website and public professional search needed",false,Identify current technical buyer before sending.,2026-08-16
+CT-A007,A007,,CTO / Head of Engineering,,,"company website and public professional search needed",false,Identify current technical buyer before sending.,2026-08-16
+CT-A008,A008,,VP Engineering / Head of AI,,,"company website and public professional search needed",false,Identify current technical buyer before sending.,2026-08-16
+CT-A009,A009,,CTO / Head of Engineering,,,"company website and public professional search needed",false,Identify current technical buyer before sending.,2026-08-16
+CT-A010,A010,,CTO / Engineering Lead,,,"company website and public professional search needed",false,Identify current technical buyer before sending.,2026-08-16
+CT-A011,A011,,CTO / VP Engineering,,,"company website and public professional search needed",false,Identify current technical buyer before sending.,2026-08-16
+CT-A012,A012,,AI Product Engineering Lead,,,"company website and public professional search needed",false,Identify current technical buyer before sending.,2026-08-16
+CT-A016,A016,Beyang Liu,Chief Technology Officer and Co-founder,,,"https://claude.com/customers/sourcegraph",true,Anthropic customer page quotes Beyang Liu as Sourcegraph CTO and cofounder; professional email still not verified.,2026-08-18
+CT-A018,A018,Gabriel Hubert,Co-founder / technical buyer,,,"https://dust.tt/home/about",true,Dust about page/search result identifies Gabriel Hubert on leadership/team page; professional email still not verified.,2026-08-18
+CT-A030,A030,Bernard Aceituno,Co-founder,,,"https://www.stackai.com/blog/stack-ai-raises-16m-series-a-to-create-ai-agents-for-every-job",true,Stack AI blog identifies Bernard Aceituno as co-founder; professional email still not verified.,2026-08-18
+CT-B002,B002,,COO / Head of Operations,,,"company website and public professional search needed",false,Identify operations buyer before sending.,2026-08-16
+CT-B003,B003,,COO / Operations Director,,,"company website and public professional search needed",false,Identify operations buyer before sending.,2026-08-16
+CT-B004,B004,,COO / Head of Operations,,,"company website and public professional search needed",false,Identify operations buyer before sending.,2026-08-16
+CT-B010,B010,,Operations Lead / Product Operations,,,"company website and public professional search needed",false,Identify operations buyer before sending.,2026-08-16
+CT-B011,B011,,COO / Head of Operations,,,"company website and public professional search needed",false,Identify operations buyer before sending.,2026-08-16
+CT-B013,B013,,CEO / Operations Director,,,"company website and public professional search needed",false,Identify operations buyer before sending.,2026-08-16
+CT-C001,C001,,CTO / Product Security Lead,,,"company website and public professional search needed",false,Verify current buyer and CRA relevance before sending.,2026-08-16
+CT-C002,C002,,CISO / Product Security Lead,,,"company website and public professional search needed",false,Verify current buyer and CRA relevance before sending.,2026-08-16
+CT-C004,C004,,CTO / Head of Security,,,"company website and public professional search needed",false,Verify current buyer and CRA relevance before sending.,2026-08-16
+CT-C008,C008,,CISO / Product Security Lead,,,"company website and public professional search needed",false,Verify current buyer and CRA relevance before sending.,2026-08-16
+CT-C010,C010,,CISO / CTO,,,"company website and public professional search needed",false,Verify current buyer and CRA relevance before sending.,2026-08-16
+CT-C017,C017,,CTO / Product Security Lead,,,"company website and public professional search needed",false,Verify current buyer and CRA relevance before sending.,2026-08-16

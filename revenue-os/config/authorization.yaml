@@ -1,0 +1,22 @@
+research_public_web: true
+edit_local_files: true
+run_local_code: true
+git_commit: true
+
+deploy_preview: true
+deploy_production: false
+
+create_external_accounts: false
+purchase_services: false
+modify_dns: false
+
+draft_email: true
+send_email: true
+
+draft_linkedin: true
+send_linkedin: false
+
+submit_contact_forms: false
+
+delete_cloud_resources: false
+sign_contracts: false

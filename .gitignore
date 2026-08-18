@@ -1,0 +1,16 @@
+.venv/
+.idea/
+__pycache__/
+*.pyc
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+credentials.local.yaml
+revenue-os/config/credentials.local.yaml
+
+# Local runtime artifacts
+*.log
+revenue-os/analytics/events/*.json
+

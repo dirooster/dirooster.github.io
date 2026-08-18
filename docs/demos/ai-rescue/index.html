@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Production Audit Demo</title>
+  <link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../../index.html"><span class="brand-mark">AI</span><span>Dmitrii Petukhov</span></a>
+    <nav class="nav">
+      <a href="../../ai-production-rescue/index.html">AI Rescue</a>
+      <a href="../../logistics-automation/index.html">Logistics</a>
+      <a href="../../cra-engineering/index.html">CRA Engineering</a>
+    </nav>
+  </header>
+  <main class="section">
+    <div class="inner">
+      <h1>AI production audit demo</h1>
+      <p class="section-intro">Synthetic architecture review for a fictional agent workflow. The purpose is to show the audit shape, not to claim measured results.</p>
+      <div class="demo-shell">
+        <aside class="sidebar">
+          <h2>Inputs</h2>
+          <p class="notice">Fictional workflow: support copilot answers customers, calls internal tools, and escalates uncertain cases.</p>
+          <button class="button" data-track="run-ai-demo" onclick="runAiDemo()">Run review</button>
+        </aside>
+        <section class="workspace">
+          <div class="toolbar"><strong>Readiness output</strong><a class="button small secondary" href="../../ai-production-rescue/index.html">Request real audit</a></div>
+          <div class="demo-output">
+            <div class="card">
+              <h3>Audit lens</h3>
+              <table class="table">
+                <tr><th>Area</th><th>Question</th></tr>
+                <tr><td>Eval</td><td>Can releases be compared against failures?</td></tr>
+                <tr><td>Tools</td><td>Are tool failures observable?</td></tr>
+                <tr><td>Human review</td><td>Which decisions require approval?</td></tr>
+                <tr><td>Cost</td><td>Where does usage scale unexpectedly?</td></tr>
+              </table>
+            </div>
+            <pre class="code-box" id="ai-demo-output">Click Run review.</pre>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+  <script src="../../assets/app.js"></script>
+</body>
+</html>
