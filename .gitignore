@@ -14,3 +14,11 @@ revenue-os/config/credentials.local.yaml
 *.log
 revenue-os/analytics/events/*.json
 
+# Keep the public GitHub Pages repository limited to the website.
+AUTONOMOUS REVENUE AGENT — MASTER EXECUTION SPEC.md
+main.py
+revenue-os/
+
+# But allow the static published site.
+!docs/
+!docs/**
