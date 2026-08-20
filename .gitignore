@@ -6,7 +6,7 @@ __pycache__/
 # Local secrets and credentials
 .env
 .env.*
-!.env.example
+.env.example
 credentials.local.yaml
 revenue-os/config/credentials.local.yaml
 
