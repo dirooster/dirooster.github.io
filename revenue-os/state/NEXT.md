@@ -1,7 +1,7 @@
 # Next Tasks
 
-1. Enable GitHub Pages in `dirooster/dirooster.github.io`: branch `main`, folder `/docs`.
-2. Recheck `https://dirooster.github.io/` after GitHub finishes deployment.
+1. Choose contact form backend: Formspree, EmailJS, or Cloudflare Worker.
+2. Add chosen form endpoint to the main contact form.
 3. Validate first 10 AI Production Rescue leads with deeper source notes and buyer names.
 4. Replace role-only contact placeholders with verified business contacts and verified recipient emails.
 5. Add real booking link if available; until then use `tech.it.rooster@yandex.ru`.

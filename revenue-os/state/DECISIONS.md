@@ -20,3 +20,4 @@
 - Owner enabled `send_email: true`; actual sending still requires verified recipient email and queue `status=ready`.
 - Owner selected GitHub Pages as the first landing deployment target.
 - Owner rejected the first simple design. Redesign direction: premium personal-brand landing inspired by the Adam Holland Educates Framer reference, without copying its assets or brand.
+- Do not expose SMTP credentials in browser JavaScript. Contact form uses a safe endpoint placeholder and falls back to prepared `mailto:` until a form backend is configured.

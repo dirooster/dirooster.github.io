@@ -1,4 +1,5 @@
 const eventKey = "revenue_os_events";
+const langKey = "revenue_os_lang";
 
 function recordEvent(type, payload = {}) {
   const event = {
@@ -40,10 +41,36 @@ document.addEventListener("submit", (event) => {
   event.preventDefault();
   const data = Object.fromEntries(new FormData(form).entries());
   recordEvent("lead_form_submit", data);
-  form.reset();
   const status = form.querySelector("[data-form-status]");
+  const endpoint = form.dataset.formEndpoint;
+  if (endpoint) {
+    fetch(endpoint, {
+      method: "POST",
+      headers: { "Accept": "application/json" },
+      body: new FormData(form)
+    })
+      .then((response) => {
+        if (!response.ok) throw new Error("Form endpoint error");
+        form.reset();
+        if (status) status.textContent = currentLang() === "ru" ? "Запрос отправлен." : "Request sent.";
+      })
+      .catch(() => {
+        if (status) status.textContent = currentLang() === "ru" ? "Не удалось отправить форму. Скопируйте email ниже." : "Form submit failed. Please copy the email below.";
+      });
+    return;
+  }
+  const recipient = form.dataset.recipientEmail || "tech.it.rooster@yandex.ru";
+  const subject = currentLang() === "ru" ? "Технический запрос" : "Technical assessment request";
+  const body = [
+    `Name: ${data.name || ""}`,
+    `Email: ${data.email || ""}`,
+    `Company: ${data.company || ""}`,
+    "",
+    data.message || ""
+  ].join("\n");
+  window.location.href = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   if (status) {
-    status.textContent = "Draft captured locally. Connect email/CRM before external submission.";
+    status.textContent = currentLang() === "ru" ? "Открываю подготовленное письмо." : "Opening a prepared email.";
   }
 });
 
@@ -51,6 +78,28 @@ function setText(id, text) {
   const element = document.getElementById(id);
   if (element) element.textContent = text;
 }
+
+function currentLang() {
+  return localStorage.getItem(langKey) || "en";
+}
+
+function applyLang(lang) {
+  localStorage.setItem(langKey, lang);
+  document.documentElement.lang = lang;
+  document.querySelectorAll("[data-en][data-ru]").forEach((element) => {
+    element.innerHTML = element.dataset[lang];
+  });
+  const toggle = document.querySelector("[data-lang-switch]");
+  if (toggle) toggle.textContent = lang === "ru" ? "EN" : "RU";
+}
+
+document.addEventListener("click", (event) => {
+  const target = event.target.closest("[data-lang-switch]");
+  if (!target) return;
+  applyLang(currentLang() === "ru" ? "en" : "ru");
+});
+
+applyLang(currentLang());
 
 window.runAiDemo = function runAiDemo() {
   const findings = [

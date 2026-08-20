@@ -40,7 +40,7 @@ Revenue: 0
 
 ## Biggest Bottleneck
 
-SMTP verification is successful for `tech.it.rooster@yandex.ru`. `send_email: true` is active, but outreach queue rows remain `draft` because recipient emails are not verified. GitHub repository `dirooster/dirooster.github.io` has been pushed. Main landing page was redesigned in a premium personal-brand style inspired by the provided Framer reference; GitHub Pages source still needs to be enabled in repository settings if the public URL is 404.
+SMTP verification is successful for `tech.it.rooster@yandex.ru`. `send_email: true` is active, but outreach queue rows remain `draft` because recipient emails are not verified. GitHub repository `dirooster/dirooster.github.io` has been pushed. Main landing page now has a safer contact form fallback, RU/EN toggle, stronger proof blocks, and confidence/process messaging.
 
 ## Highest-Confidence Learning
 
